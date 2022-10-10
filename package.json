@@ -1,0 +1,28 @@
+{
+  "name": "k-tools",
+  "version": "0.0.1-dev",
+  "description": "A library of TypeScript tools that you'll probably use a lot",
+  "main": "index.ts",
+  "workspaces": [
+    "./packages"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangyewei/k-tools.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "JavaScript",
+    "tools",
+    "library"
+  ],
+  "author": "Yewei Wang <wangyewei1@foxmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangyewei/k-tools/issues"
+  },
+  "homepage": "https://github.com/wangyewei/k-tools#readme"
+}
