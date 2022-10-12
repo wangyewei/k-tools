@@ -1,11 +1,27 @@
 # k-tools
 
-ENGLISH |
-[简体中文](https://github.com/wangyewei/k-tools/blob/main/README_ZH.md) |
-[Documents](https://github.com/wangyewei/k-tools/blob/main/DOCS.md) |
-[Email](wangyewei1@foxmail.com) |
-[06k4](https://06k4.com) |
-
-## Description
+## 📌Description
 
 K-tools is a library of TypeScript tools that you'll probably use a lot.
+
+Documents: <a href="#">Coming soon~</a>
+
+Use the MIT license.
+
+## 🎠Installation
+
+In a browser
+
+```html
+<script src="k-tools.js"></script>
+```
+
+Using npm
+
+`pnpm install k-tools`
+`npm install k-tools`
+`yarn add k-tools`
+
+We recommend that you use `pnpm` to install.
+
+## 📜 What can k-tools do for typescript / javascript ?
