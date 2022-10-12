@@ -31,9 +31,9 @@ In a browser
 Using npm
 
 ```javascript
-pnpm install k-tools
-npm install k-tools
-yarn add k-tools
+$ pnpm install k-tools
+$ npm install k-tools
+$ yarn add k-tools
 ```
 
 We recommend that you use `pnpm` to install.
