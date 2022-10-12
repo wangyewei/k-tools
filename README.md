@@ -1,5 +1,7 @@
 # k-tools
 
+<div style="display: flex; justify-content: center; flex-wrap: wrap;">
+
 ![language](https://img.shields.io/badge/language-typescript-%232980b9)
 
 ![cn](https://img.shields.io/badge/cn-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-%23e74c3c)
@@ -7,6 +9,8 @@
 ![en](https://img.shields.io/badge/en-english-%238e44ad)
 
 ![lisense](https://img.shields.io/badge/license-MIT-green)
+
+</div>
 
 ## 📌Description
 
