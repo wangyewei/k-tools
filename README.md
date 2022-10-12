@@ -24,4 +24,4 @@ Using npm
 
 We recommend that you use `pnpm` to install.
 
-## 📜 What can k-tools do for typescript / javascript ?
+## 📜 What can k-tools do for typescript / javascript developer?
