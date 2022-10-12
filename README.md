@@ -18,9 +18,11 @@ In a browser
 
 Using npm
 
-`pnpm install k-tools`
-`npm install k-tools`
-`yarn add k-tools`
+```javascript
+pnpm install k-tools
+npm install k-tools
+yarn add k-tools
+```
 
 We recommend that you use `pnpm` to install.
 
