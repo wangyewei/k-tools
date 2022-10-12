@@ -1,6 +1,6 @@
 # k-tools
 
-<div style="display: flex;">
+<div style="display: flex; justify-content: center; flex-wrap: wrap;">
 
 <img src="https://img.shields.io/badge/language-typescript-%232980b9" />
 
