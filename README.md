@@ -39,3 +39,32 @@ $ yarn add k-tools
 We recommend that you use `pnpm` to install.
 
 ## 📜 What can k-tools do for typescript / javascript developer?
+
+- Type judgment
+
+```typescript
+import { isNumber, isString, isObject, isArray } from "k-tools"
+
+const a: number = 1
+
+isNumber(a)
+// > true
+isString(a)
+// > false
+
+// ...
+```
+
+- Array api
+
+```typescript
+import { isSameArray } from "k-tools"
+
+const raw: Array<number> = [1, 2, 3],
+  target: Array<number> = [3, 2, 1]
+
+isSameArray(raw, target)
+// > false
+
+//...
+```
