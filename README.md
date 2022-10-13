@@ -8,7 +8,7 @@
 
 <br/>
 
-<p align="center">☕️Efficient, fun, comprehensive TypeScript tools library for fron-end devlopers.☕️</p>
+<p align="center">☕️Efficient, fun, comprehensive TypeScript tools library for front-end devlopers.☕️</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/language-typescript-%232980b9" />
