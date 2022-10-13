@@ -40,31 +40,34 @@ We recommend that you use `pnpm` to install.
 
 ## 📜 What can k-tools do for typescript / javascript developer?
 
-- Type judgment
+To make developers focus more on products, K-tools provides developers with a large number of tool functions so that you can write JavaScript or TypeScript code more easily.
 
-```typescript
-import { isNumber, isString, isObject, isArray } from "k-tools"
+So, You may use k-tools in the following scenarios:
 
-const a: number = 1
+- Determine JavaScript variable type.
 
-isNumber(a)
-// > true
-isString(a)
-// > false
+- Common Algorithms.
 
-// ...
-```
+- Build data structures.
 
-- Array api
+- Mathematical calculation.
 
-```typescript
-import { isSameArray } from "k-tools"
+- Further processing of Objects and Array.
 
-const raw: Array<number> = [1, 2, 3],
-  target: Array<number> = [3, 2, 1]
+- JavaScript data type conversion.
 
-isSameArray(raw, target)
-// > false
+- ... Waiting for you to discover more.
 
-//...
-```
+## 🍖 Why k-tools ?
+
+- Modular solution that supports tree shaking by default.
+
+- Written based on typescript, providing a complete type definition file.
+
+- Refined in daily development, more in line with product business.
+
+## 📫 About me
+
+Yewei Wang
+
+wangyewei1@foxmail.com
