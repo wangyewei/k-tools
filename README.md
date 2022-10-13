@@ -12,7 +12,7 @@
 
 </div>
 
-## 📌Description
+## 📌 Description
 
 K-tools is a library of TypeScript tools that you'll probably use a lot.
 
@@ -20,7 +20,7 @@ Documents: <a href="#">Coming soon~</a>
 
 Use the MIT license.
 
-## 🎠Installation
+## 🎠 Installation
 
 In a browser
 
