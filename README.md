@@ -1,36 +1,51 @@
+
 <p align="center">
-  <h1>k-tools</h1>
+ <strong>k - tools</strong>
 </p>
+
+
+
+
+<br/>
 
 <p align="center">☕️Efficient, fun, comprehensive TypeScript tools library fo fron-end devlopers.☕️</p>
 
-  <img src="https://img.shields.io/badge/language-typescript-%232980b9" />
-
-  <img src="https://img.shields.io/badge/license-MIT-green" />
-</p>
-
 <p align="center">
+  <img src="https://img.shields.io/badge/language-typescript-%232980b9" />
+  <img src="https://img.shields.io/badge/license-MIT-green" />
   <img src="https://img.shields.io/badge/cn-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-%23e74c3c" />
   <img src="https://img.shields.io/badge/en-english-%238e44ad" />
 </p>
 
-## Description
+<p align="center">
+ 
+  <img src="https://img.shields.io/badge/tsc-v4.8.0-%2340739e" />
+  <img src="https://img.shields.io/badge/npm-v10.00-%23eb4d4b" />
+  <img src="https://img.shields.io/badge/node-v14.0.0-%23353b48" />
+ 
+</p>
 
-K-tools is a library of TypeScript tools that you'll probably use a lot.
+<p align="center"><br><img alt="" src="https://saucelabs.com/browser-matrix/mochajs.svg" width="354"></p>
 
-Documents: <a href="#">Coming soon~</a>
+## Document
 
-Use the MIT license.
+**[Document](https://github.com/wangyewei)** | **[Release Notes / History / Changes](https://github.com/wangyewei)** | [06k4 studio](https://06k4.com)
+
+## Download
+
+- Full size (coming soon ~ )
+
+- Mini size (coming soon ~ )
 
 ## Installation
 
-In a browser
+Browser
 
 ```html
 <script src="k-tools.js"></script>
 ```
 
-Using npm
+Npm
 
 ```javascript
 $ pnpm install k-tools
@@ -73,3 +88,5 @@ So, You may use k-tools in the following scenarios:
 Yewei Wang
 
 wangyewei1@foxmail.com
+
+<img src="https://user-images.githubusercontent.com/49926816/195669402-b9be1e34-0bbc-4068-a487-26bfb2b043f0.png" width="100">
