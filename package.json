@@ -12,10 +12,10 @@
   ],
   "types": "dist/type/packages/index.d.ts",
   "scripts": {
-    "build": "node './scripts/build.js'",
+    "build": "pnpm run build:esm",
     "clean": "rimraf ./dist",
     "build:esm": "pnpm run clean && cross-env BABEL_ENV=esm rollup -c",
-    "test": "cross-env TS_NODE_PROJECT='tsconfig.test.json' mocha packages/**/*.test.ts"
+    "test": "cross-env TS_NODE_PROJECT='test/tsconfig.test.json' mocha packages/**/*.test.ts"
   },
   "mocha": {
     "require": [

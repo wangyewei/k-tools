@@ -1,0 +1,1 @@
+export const getReferenceDataType = (val: unknown): string => Object.prototype.toString.call(val)

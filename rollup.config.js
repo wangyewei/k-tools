@@ -1,11 +1,12 @@
 import * as fs from 'fs'
+
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import typescript from 'rollup-plugin-typescript2'
 import json from '@rollup/plugin-json'
-import babel from '@rollup/plugin-babel'
 import dts from 'rollup-plugin-dts'
 // import { terser } from 'rollup-plugin-terser'
+
 
 const entry = 'packages/index.ts'
 const componentsDir = 'packages'
@@ -35,12 +36,13 @@ const commonPlugins = [
   commonjs({ sourceMap: !isProd }),
   typescript(),
   // babel(babelOptions),
-  json(),
+  json()
 ]
 
 const externalConfig = [
   // id => /\/__expample__|main.tsx/.test(id),
-  '**/node_modules/**'
+  '**/node_modules/**',
+  '**/*.test.ts'
 ]
 
 const esmOutput = {
