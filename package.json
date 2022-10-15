@@ -10,6 +10,7 @@
   "files": [
     "dist"
   ],
+  "type": "module",
   "types": "dist/type/packages/index.d.ts",
   "scripts": {
     "build": "pnpm run build:esm",
@@ -18,9 +19,8 @@
     "test": "cross-env TS_NODE_PROJECT='test/tsconfig.test.json' mocha packages/**/*.test.ts"
   },
   "mocha": {
-    "require": [
-      "ts-node/register",
-      "tsconfig-paths/register"
+    "loader": [
+      "ts-node/esm"
     ]
   },
   "repository": {
@@ -31,7 +31,8 @@
     "TypeScript",
     "JavaScript",
     "tools",
-    "library"
+    "library",
+    "mocha"
   ],
   "author": "Yewei Wang <wangyewei1@foxmail.com>",
   "license": "MIT",
