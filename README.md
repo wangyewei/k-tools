@@ -1,10 +1,6 @@
-
 <p align="center">
  <strong>k - tools</strong>
 </p>
-
-
-
 
 <br/>
 
@@ -85,7 +81,7 @@ So, You may use k-tools in the following scenarios:
 
 ## About me
 
-Yewei Wang
+Yewei Wang.
 
 wangyewei1@foxmail.com
 
