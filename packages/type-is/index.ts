@@ -1,6 +1,6 @@
 import { getReferenceDataType } from '../.core/'
 
-export const isArray = (val: unknown): val is Array<unknown> => getReferenceDataType(val) === '[object Object]'
+export const isArray = (val: unknown): val is Array<unknown> => getReferenceDataType(val) === '[object Array]'
 export const isObject = (val: unknown): val is object => getReferenceDataType(val) === '[object Object]'
 
 export const isString = (val: unknown): val is string => typeof val === 'string'

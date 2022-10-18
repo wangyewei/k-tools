@@ -21,8 +21,6 @@
  
 </p>
 
-<p align="center"><br><img alt="" src="https://saucelabs.com/browser-matrix/mochajs.svg" width="354"></p>
-
 ## Document
 
 **[Document](https://github.com/wangyewei)** | **[Release Notes / History / Changes](https://github.com/wangyewei)** | [06k4 studio](https://06k4.com)
