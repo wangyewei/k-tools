@@ -1,9 +1,10 @@
 import { isSameArray } from "../array";
-import { isObject, isArray } from "../type-is";
+import { isObject, isArray } from "../is";
 // Determine whether two objects are equal
 export function isSameObject(
   raw: Record<string, unknown>,
   target: Record<string, unknown>): boolean {
+
   const raw_keys: Array<string> = Object.keys(raw)
   const tar_keys: Array<string> = Object.keys(target)
 

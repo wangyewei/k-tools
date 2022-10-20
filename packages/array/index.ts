@@ -1,5 +1,5 @@
 // Determine whether two arrays are equal
-import { isArray, isObject } from "@/type-is"
+import { isArray, isObject } from "@/is"
 import { isSameObject } from "@/object"
 
 export function isSameArray(raw: Array<unknown>, target: Array<unknown>): boolean {

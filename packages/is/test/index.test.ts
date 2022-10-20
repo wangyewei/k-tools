@@ -1,7 +1,7 @@
 import { describe, it } from 'mocha'
 import { expect } from 'chai'
 // 判断变量是否为数组
-import { isArray } from '../'
+import { isArray } from '..'
 
 describe('type check', () => {
   const arr: Array<any> = [], obj: Record<string, any> = {}
