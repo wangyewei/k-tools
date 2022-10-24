@@ -7,3 +7,5 @@ export const isDateValid = (...val: []): boolean => !Number.isNaN(new Date(...va
 
 export const isNode = typeof process !== 'undefined' && process.version !== null && process.env.node !== null
 export const isBrowser = isObject(window) && isObject(document)
+
+export const isRewritten = (target: unknown): boolean => toString.call(target) !== Object.prototype.toString && !toString.call(target).toString().includes('[native code]')
