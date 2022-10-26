@@ -32,7 +32,5 @@ export function createCls(): string {
     }
   }
 
-
-
   return classnames.join(' ')
 }

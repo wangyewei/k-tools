@@ -1,5 +1,5 @@
 import { isSameArray } from "../array";
-import { isObject, isArray } from "../is";
+import { isObject, isArray, isNumber, isString } from "../is";
 // Determine whether two objects are equal
 export function isSameObject(
   raw: Record<string, unknown>,
@@ -34,4 +34,25 @@ export function isSameObject(
   }
 
 
+}
+
+export function pick<T, K extends keyof T>(raw: T, ...k: K[]): Pick<T, K> {
+  const obj: Pick<T, K> = {} as Pick<T, K>
+
+  for (let i = 0; i < k.length; i++) {
+    const arg = k[i]
+    if (!arg) continue
+
+    if (isString(arg)) {
+      obj[arg] = raw[arg]
+      continue
+    }
+
+    if (isArray(arg)) {
+      arg.forEach((k: string) => obj[k] = raw[k])
+
+    }
+  }
+
+  return obj
 }

@@ -1,4 +1,4 @@
-import { isObject } from './typeChecker'
+import { isNumber, isObject } from './typeChecker'
 
 export * from './typeChecker'
 
@@ -9,3 +9,5 @@ export const isNode = typeof process !== 'undefined' && process.version !== null
 export const isBrowser = isObject(window) && isObject(document)
 
 export const isRewritten = (target: unknown): boolean => toString.call(target) !== Object.prototype.toString && !toString.call(target).toString().includes('[native code]')
+
+export const isInteger = (val: unknown): val is number => isNumber(val) && val % 1 === 0
